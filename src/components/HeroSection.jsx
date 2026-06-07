@@ -30,21 +30,21 @@ const priceOptions = [
 
 const slides = [
   {
-    image: '/assets/hero/nine_arch.jpg',
+    image: 'https://images.unsplash.com/photo-1656436471975-7bf0db74e3e5?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     title: 'Nine Arch Bridge',
     eyebrow: "Sri Lanka's Jewel of the Hills",
     tagline: 'Witness the sunrise over the misty viaduct',
     duration: 10000,
   },
   {
-    image: '/assets/hero/ella_rock.jpg',
+    image: 'https://images.unsplash.com/photo-1588247132420-9b1ef82a8952?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     title: 'Ella Rock Summit',
     eyebrow: 'Adventure In The Clouds',
     tagline: 'Conquer the peak that defines the skyline',
     duration: 10000,
   },
   {
-    image: '/assets/hero/little_adams.jpg',
+    image: 'https://images.unsplash.com/photo-1568918756300-c011aed10362?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     title: 'Little Adam\'s Peak',
     eyebrow: 'Golden Hour Splendor',
     tagline: 'Watch heaven meet the green hill country horizon',
