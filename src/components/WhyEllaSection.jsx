@@ -5,7 +5,7 @@ import ScrollReveal from './ScrollReveal'
 
 export default function WhyEllaSection() {
   return (
-    <section className="py-20 bg-white relative overflow-hidden">
+    <section className="py-12 md:py-20 bg-white relative overflow-hidden">
       <div
         className="absolute inset-0 pointer-events-none"
         style={{

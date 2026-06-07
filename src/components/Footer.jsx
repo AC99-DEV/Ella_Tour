@@ -46,8 +46,8 @@ export default function Footer() {
 
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
-          <div className="lg:col-span-2">
-            <Link to="/" className="flex items-center gap-2 mb-4 group">
+          <div className="lg:col-span-2 text-center lg:text-left">
+            <Link to="/" className="flex items-center justify-center lg:justify-start gap-2 mb-4 group">
               <div className="p-2 bg-gold/20 rounded-xl">
                 <Mountain className="w-5 h-5 text-gold" />
               </div>
@@ -55,7 +55,7 @@ export default function Footer() {
                 Ella <span className="text-gold">Hiking Trails</span>
               </span>
             </Link>
-            <p className="font-body text-white/50 text-sm leading-relaxed mb-6 max-w-xs">
+            <p className="font-body text-white/50 text-sm leading-relaxed mb-6 max-w-xs mx-auto lg:mx-0">
               Providing premium guided hiking and tracking services in the Ella area since 2010.
               Connecting travelers to the Central Highlands' ultimate trails.
             </p>
@@ -76,16 +76,16 @@ export default function Footer() {
           </div>
 
           {Object.entries(footerLinks).map(([category, links]) => (
-            <div key={category}>
+            <div key={category} className="text-center md:text-left flex flex-col items-center md:items-start">
               <h4 className="font-display font-semibold text-white text-sm tracking-widest uppercase mb-4">
                 {category}
               </h4>
               <ul className="space-y-2.5">
                 {links.map((link) => (
-                  <li key={link.label}>
+                  <li key={link.label} className="flex justify-center md:justify-start">
                     <Link
                       to={link.href}
-                      className="font-body text-white/50 hover:text-gold text-sm transition-colors duration-200 flex items-center gap-1 group"
+                      className="font-body text-white/50 hover:text-gold text-sm transition-colors duration-200 flex items-center gap-1 group justify-center md:justify-start"
                     >
                       <span className="w-0 group-hover:w-3 overflow-hidden transition-all duration-200">
                         <ArrowRight className="w-3 h-3" />
@@ -98,11 +98,11 @@ export default function Footer() {
             </div>
           ))}
 
-          <div>
+          <div className="text-center md:text-left">
             <h4 className="font-display font-semibold text-white text-sm tracking-widest uppercase mb-4">
               Contact
             </h4>
-            <div className="space-y-3 mb-6">
+            <div className="space-y-3 mb-6 flex flex-col items-center md:items-start">
               <a href="mailto:hello@ellahikingtrails.lk" className="flex items-center gap-3 text-white/50 hover:text-gold transition-colors text-sm">
                 <Mail className="w-4 h-4 flex-shrink-0" />
                 hello@ellahikingtrails.lk
@@ -120,7 +120,7 @@ export default function Footer() {
         </div>
 
         <div className="py-8 border-t border-white/10">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="flex flex-col md:flex-row items-center justify-center md:justify-between gap-6">
             <div>
               <h4 className="font-display font-semibold text-white text-lg mb-1">
                 Get Hiking Tips in Your Inbox
@@ -161,11 +161,11 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="py-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="font-body text-white/30 text-xs">
+        <div className="py-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-center sm:justify-between gap-3">
+          <p className="font-body text-white/30 text-xs text-center sm:text-left">
             © 2026 Ella Hiking Trails. All rights reserved.
           </p>
-          <p className="font-body text-white/30 text-xs flex items-center gap-1">
+          <p className="font-body text-white/30 text-xs flex items-center gap-1 text-center sm:text-left">
             Made with <Heart className="w-3 h-3 text-gold fill-gold" /> for Ella, Sri Lanka
           </p>
         </div>

@@ -47,7 +47,8 @@ export default function EventsSection() {
   }
 
   return (
-    <section id="events" className="py-24 bg-beige relative overflow-hidden">
+    <section id="events" className="py-12 md:py-24 bg-beige relative overflow-hidden">
+
       <div className="absolute top-0 right-0 w-80 h-80 rounded-full bg-gold/5 blur-3xl pointer-events-none" />
       <div className="absolute bottom-0 left-0 w-60 h-60 rounded-full bg-forest/5 blur-3xl pointer-events-none" />
 
