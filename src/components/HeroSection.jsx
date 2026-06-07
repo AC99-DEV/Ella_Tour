@@ -2,6 +2,29 @@ import React, { useRef, useEffect, useState } from 'react'
 import { motion, AnimatePresence, useScroll, useTransform } from 'framer-motion'
 import { Search, ChevronDown, Star, Users, Map, CloudSun, MapPin, SlidersHorizontal } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
+import CustomDropdown from './CustomDropdown'
+
+const activityOptions = [
+  { value: 'All', label: 'All Activities' },
+  { value: 'hiking', label: 'Hiking & Trekking' },
+  { value: 'culture', label: 'Culture & Nature' },
+  { value: 'sunset', label: 'Sunset Views' },
+  { value: 'experience', label: 'Tea Heritage' }
+]
+
+const difficultyOptions = [
+  { value: 'All', label: 'Any Difficulty' },
+  { value: 'easy', label: 'Easy' },
+  { value: 'moderate', label: 'Moderate' },
+  { value: 'challenging', label: 'Challenging' }
+]
+
+const priceOptions = [
+  { value: 'All', label: 'Any Budget' },
+  { value: 'under11000', label: 'Under LKR 11000' },
+  { value: '11000 to 14000', label: 'LKR 11000 - LKR 14000' },
+  { value: 'over15000', label: 'Over LKR 15000' }
+]
 
 const stats = [
   { icon: Star, value: '4.9', label: 'Avg Rating' },
@@ -166,49 +189,30 @@ export default function HeroSection() {
             onSubmit={handleSearch}
             className="glass-card backdrop-blur-lg bg-black/30 border border-white/15 p-4 rounded-3xl max-w-2xl mb-12 shadow-2xl relative z-30"
           >
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 items-center">
-              <div className="relative">
-                <label className="block text-[10px] font-body font-bold text-gold uppercase tracking-widest ml-3 mb-1">Activity</label>
-                <select
-                  value={activity}
-                  onChange={(e) => setActivity(e.target.value)}
-                  className="w-full bg-white/10 border border-white/10 rounded-xl px-3 py-2 text-white text-sm font-body focus:outline-none focus:border-gold/50 finder-select cursor-pointer"
-                >
-                  <option value="All" className="bg-forest-dark text-white">All Activities</option>
-                  <option value="hiking" className="bg-forest-dark text-white">Hiking & Trekking</option>
-                  <option value="culture" className="bg-forest-dark text-white">Culture & Nature</option>
-                  <option value="sunset" className="bg-forest-dark text-white">Sunset Views</option>
-                  <option value="experience" className="bg-forest-dark text-white">Tea Heritage</option>
-                </select>
-              </div>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 items-end">
+              <CustomDropdown
+                value={activity}
+                onChange={setActivity}
+                options={activityOptions}
+                variant="dark"
+                label="Activity"
+              />
 
-              <div className="relative">
-                <label className="block text-[10px] font-body font-bold text-gold uppercase tracking-widest ml-3 mb-1">Difficulty</label>
-                <select
-                  value={difficulty}
-                  onChange={(e) => setDifficulty(e.target.value)}
-                  className="w-full bg-white/10 border border-white/10 rounded-xl px-3 py-2 text-white text-sm font-body focus:outline-none focus:border-gold/50 finder-select cursor-pointer"
-                >
-                  <option value="All" className="bg-forest-dark text-white">Any Difficulty</option>
-                  <option value="easy" className="bg-forest-dark text-white">Easy</option>
-                  <option value="moderate" className="bg-forest-dark text-white">Moderate</option>
-                  <option value="challenging" className="bg-forest-dark text-white">Challenging</option>
-                </select>
-              </div>
+              <CustomDropdown
+                value={difficulty}
+                onChange={setDifficulty}
+                options={difficultyOptions}
+                variant="dark"
+                label="Difficulty"
+              />
 
-              <div className="relative">
-                <label className="block text-[10px] font-body font-bold text-gold uppercase tracking-widest ml-3 mb-1">Budget</label>
-                <select
-                  value={priceRange}
-                  onChange={(e) => setPriceRange(e.target.value)}
-                  className="w-full bg-white/10 border border-white/10 rounded-xl px-3 py-2 text-white text-sm font-body focus:outline-none focus:border-gold/50 finder-select cursor-pointer"
-                >
-                  <option value="All" className="bg-forest-dark text-white">Any Budget</option>
-                  <option value="under40" className="bg-forest-dark text-white">Under $40</option>
-                  <option value="40to50" className="bg-forest-dark text-white">$40 - $50</option>
-                  <option value="over50" className="bg-forest-dark text-white">Over $50</option>
-                </select>
-              </div>
+              <CustomDropdown
+                value={priceRange}
+                onChange={setPriceRange}
+                options={priceOptions}
+                variant="dark"
+                label="Budget"
+              />
             </div>
 
 

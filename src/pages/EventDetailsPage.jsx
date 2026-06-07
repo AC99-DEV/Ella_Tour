@@ -46,18 +46,22 @@ export default function EventDetailsPage() {
         </motion.div>
 
         {/* Back button */}
-        <motion.button
-          initial={{ opacity: 0, x: -20 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ delay: 0.3 }}
-          onClick={() => navigate(-1)}
-          className="absolute top-24 left-4 md:left-8 flex items-center gap-2 bg-white/15 backdrop-blur-md 
-                     text-white px-4 py-2 rounded-full text-sm font-body font-medium 
-                     hover:bg-white/25 transition-all duration-200 z-10"
-        >
-          <ArrowLeft className="w-4 h-4" />
-          Back
-        </motion.button>
+        <div className="absolute top-24 left-0 right-0 z-20 pointer-events-none">
+          <div className="max-w-7xl mx-auto px-4 md:px-8 w-full flex">
+            <motion.button
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: 0.3 }}
+              onClick={() => navigate(-1)}
+              className="pointer-events-auto flex items-center gap-2 bg-white/15 backdrop-blur-md 
+                         text-white px-4 py-2 rounded-full text-sm font-body font-medium 
+                         hover:bg-white/25 transition-all duration-200 shadow-lg border border-white/10"
+            >
+              <ArrowLeft className="w-4 h-4" />
+              Back
+            </motion.button>
+          </div>
+        </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 w-full pb-10">
           <motion.div

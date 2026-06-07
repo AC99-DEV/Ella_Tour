@@ -6,7 +6,21 @@ import PageTransition from '../components/PageTransition'
 import EventCard from '../components/EventCard'
 import ScrollReveal from '../components/ScrollReveal'
 import eventsData from '../data/events.json'
+import CustomDropdown from '../components/CustomDropdown'
 
+const difficultyOptions = [
+  { value: 'All', label: 'Any Difficulty' },
+  { value: 'easy', label: 'Easy' },
+  { value: 'moderate', label: 'Moderate' },
+  { value: 'challenging', label: 'Challenging' }
+]
+
+const priceOptions = [
+  { value: 'All', label: 'Any Budget' },
+  { value: 'under11000', label: 'Under LKR 11000' },
+  { value: '11000 to 14000', label: 'LKR 11000 - LKR 14000' },
+  { value: 'over15000', label: 'Over LKR 15000' }
+]
 const categories = ['All', ...Array.from(new Set(eventsData.map(e => e.category)))]
 
 export default function ExperiencesPage() {
@@ -23,6 +37,15 @@ export default function ExperiencesPage() {
     setBudget(searchParams.get('price') || 'All')
   }, [searchParams])
 
+  const isCategoryActive = (cat) => {
+    if (activeCategory === cat) return true
+    const activeLower = activeCategory.toLowerCase()
+    const catLower = cat.toLowerCase()
+    if (activeLower === 'hiking' && catLower === 'hiking & trekking') return true
+    if (activeLower === 'culture' && catLower === 'cultural trails') return true
+    return false
+  }
+
   // Filter experiences
   const filtered = eventsData.filter(event => {
     if (searchTerm && !event.title.toLowerCase().includes(searchTerm.toLowerCase()) &&
@@ -34,9 +57,9 @@ export default function ExperiencesPage() {
       const cat = activeCategory.toLowerCase()
       const eventCat = event.category.toLowerCase()
       if (cat === 'hiking' && !eventCat.includes('hiking') && !eventCat.includes('trekking')) return false
-      if (cat === 'culture' && !eventCat.includes('culture') && !eventCat.includes('nature')) return false
-      if (cat === 'sunset' && !eventCat.includes('sunset')) return false
-      if (cat === 'experience' && !eventCat.includes('experience') && !eventCat.includes('tea')) return false
+      if (cat === 'culture' && !eventCat.includes('culture') && !eventCat.includes('cultural') && !eventCat.includes('nature')) return false
+      if (cat === 'sunset' && !eventCat.includes('sunset') && !event.title.toLowerCase().includes('sunset') && !event.title.toLowerCase().includes('sunrise') && !event.shortDescription.toLowerCase().includes('sunset') && !event.shortDescription.toLowerCase().includes('sunrise')) return false
+      if (cat === 'experience' && !eventCat.includes('experience') && !eventCat.includes('tea') && !event.title.toLowerCase().includes('tea') && !event.shortDescription.toLowerCase().includes('tea') && !event.highlights.some(h => h.toLowerCase().includes('tea'))) return false
       if (cat !== 'hiking' && cat !== 'culture' && cat !== 'sunset' && cat !== 'experience' && eventCat !== cat) return false
     }
 
@@ -46,9 +69,9 @@ export default function ExperiencesPage() {
 
     if (budget !== 'All') {
       const price = event.price
-      if (budget === 'under40' && price >= 40) return false
-      if (budget === '40to50' && (price < 40 || price > 50)) return false
-      if (budget === 'over50' && price <= 50) return false
+      if (budget === 'under11000' && price >= 11000) return false
+      if (budget === '11000 to 14000' && (price < 11000 || price > 14000)) return false
+      if (budget === 'over15000' && price < 15000) return false
     }
 
     return true
@@ -148,30 +171,22 @@ export default function ExperiencesPage() {
                   )}
                 </div>
 
-                <div className="relative md:col-span-3">
-                  <select
+                <div className="md:col-span-3">
+                  <CustomDropdown
                     value={difficulty}
-                    onChange={(e) => handleDifficultyChange(e.target.value)}
-                    className="w-full bg-white border border-forest/15 rounded-xl px-4 py-3 text-sm text-forest font-body focus:outline-none focus:border-gold finder-select cursor-pointer"
-                  >
-                    <option value="All">Any Difficulty</option>
-                    <option value="easy">Easy</option>
-                    <option value="moderate">Moderate</option>
-                    <option value="challenging">Challenging</option>
-                  </select>
+                    onChange={handleDifficultyChange}
+                    options={difficultyOptions}
+                    variant="light"
+                  />
                 </div>
 
-                <div className="relative md:col-span-3">
-                  <select
+                <div className="md:col-span-3">
+                  <CustomDropdown
                     value={budget}
-                    onChange={(e) => handleBudgetChange(e.target.value)}
-                    className="w-full bg-white border border-forest/15 rounded-xl px-4 py-3 text-sm text-forest font-body focus:outline-none focus:border-gold finder-select cursor-pointer"
-                  >
-                    <option value="All">Any Budget</option>
-                    <option value="under40">Under $40</option>
-                    <option value="40to50">$40 - $50</option>
-                    <option value="over50">Over $50</option>
-                  </select>
+                    onChange={handleBudgetChange}
+                    options={priceOptions}
+                    variant="light"
+                  />
                 </div>
               </div>
 
@@ -181,7 +196,7 @@ export default function ExperiencesPage() {
                     <button
                       key={cat}
                       onClick={() => handleCategoryChange(cat)}
-                      className={`px-4 py-1.5 rounded-full text-xs font-body font-semibold transition-all duration-200 ${activeCategory === cat
+                      className={`px-4 py-1.5 rounded-full text-xs font-body font-semibold transition-all duration-200 ${isCategoryActive(cat)
                           ? 'bg-forest text-white shadow-sm'
                           : 'bg-white text-forest/70 hover:bg-forest/10 hover:text-forest border border-forest/10'
                         }`}
