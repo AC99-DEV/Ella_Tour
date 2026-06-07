@@ -37,19 +37,22 @@ const slides = [
     image: '/assets/hero/nine_arch.jpg',
     title: 'Nine Arch Bridge',
     eyebrow: "Sri Lanka's Jewel of the Hills",
-    tagline: 'Witness the sunrise over the misty viaduct'
+    tagline: 'Witness the sunrise over the misty viaduct',
+    duration: 10000,
   },
   {
     image: '/assets/hero/ella_rock.jpg',
     title: 'Ella Rock Summit',
     eyebrow: 'Adventure In The Clouds',
-    tagline: 'Conquer the peak that defines the skyline'
+    tagline: 'Conquer the peak that defines the skyline',
+    duration: 10000,
   },
   {
     image: '/assets/hero/little_adams.jpg',
     title: 'Little Adam\'s Peak',
     eyebrow: 'Golden Hour Splendor',
-    tagline: 'Watch heaven meet the green hill country horizon'
+    tagline: 'Watch heaven meet the green hill country horizon',
+    duration: 10000,
   }
 ]
 
@@ -66,11 +69,13 @@ export default function HeroSection() {
   const opacity = useTransform(scrollYProgress, [0, 0.7], [1, 0])
 
   useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentSlide(prev => (prev + 1) % slides.length)
-    }, 6000)
-    return () => clearInterval(timer)
-  }, [])
+    const duration = slides[currentSlide]?.duration ?? 6000
+    const timer = setTimeout(() => {
+      setCurrentSlide((currentSlide + 1) % slides.length)
+    }, duration)
+
+    return () => clearTimeout(timer)
+  }, [currentSlide])
 
   const handleSearch = (e) => {
     e.preventDefault()

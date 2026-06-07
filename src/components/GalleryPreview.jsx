@@ -5,8 +5,6 @@ import { ArrowRight, Camera } from 'lucide-react'
 import ScrollReveal from './ScrollReveal'
 import galleryData from '../data/gallery.json'
 
-const previewPhotos = galleryData.slice(0, 8)
-
 const layoutClasses = [
   'col-span-2 row-span-2', // 0
   'col-span-1 row-span-1', // 1
@@ -19,6 +17,9 @@ const layoutClasses = [
 ]
 
 export default function GalleryPreview() {
+  const previewPhotos = galleryData.slice(0, 8)
+  const categories = ['All', ...Array.from(new Set(galleryData.map(p => p.category)))]
+
   return (
     <section className="py-24 bg-forest relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-forest-light/30 via-transparent to-transparent pointer-events-none" />
