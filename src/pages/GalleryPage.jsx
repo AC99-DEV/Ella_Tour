@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { X, ChevronLeft, ChevronRight, Camera, Grid3X3, LayoutGrid, ArrowLeft } from 'lucide-react'
 import PageTransition from '../components/PageTransition'
@@ -7,14 +7,15 @@ import GalleryImage from '../components/GalleryImage'
 import ScrollReveal from '../components/ScrollReveal'
 import galleryData from '../data/gallery.json'
 
-const categories = ['All', ...Array.from(new Set(galleryData.map(p => p.category)))]
-
 const INITIAL_COUNT = 12
 
 export default function GalleryPage() {
   const [activeCategory, setActiveCategory] = useState('All')
   const [lightbox, setLightbox] = useState(null)
   const [visibleCount, setVisibleCount] = useState(INITIAL_COUNT)
+  const navigate = useNavigate()
+
+  const categories = ['All', ...Array.from(new Set(galleryData.map(p => p.category)))]
 
   const filtered = activeCategory === 'All'
     ? galleryData
@@ -22,7 +23,19 @@ export default function GalleryPage() {
 
   const visible = filtered.slice(0, visibleCount)
 
-  const openLightbox = useCallback((photo) => setLightbox(photo), [])
+  const openLightbox = useCallback((photo) => {
+    if (photo.url) {
+      if (photo.url.startsWith('http')) {
+        window.location.href = photo.url
+      } else {
+        navigate(photo.url)
+      }
+      return
+    }
+
+    setLightbox(photo)
+  }, [navigate])
+
   const closeLightbox = useCallback(() => setLightbox(null), [])
 
   const navigateLightbox = useCallback((dir) => {

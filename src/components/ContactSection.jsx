@@ -201,15 +201,7 @@ export default function ContactSection() {
               </div>
             </ScrollReveal>
 
-            <ScrollReveal delay={0.5} direction="left">
-              <div className="flex items-center gap-3 bg-gold/5 border border-gold/20 rounded-2xl p-4">
-                <Star className="w-5 h-5 text-gold fill-gold flex-shrink-0" />
-                <div>
-                  <div className="font-display font-bold text-forest text-sm">Rated #1 in Ella</div>
-                  <div className="font-body text-forest/50 text-xs">TripAdvisor 2024 · 2,400+ reviews</div>
-                </div>
-              </div>
-            </ScrollReveal>
+            
           </div>
         </div>
       </div>

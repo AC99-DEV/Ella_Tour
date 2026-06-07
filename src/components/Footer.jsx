@@ -11,13 +11,6 @@ const footerLinks = {
     { label: 'Natural Pools', href: '/events/natural-pools' },
     { label: 'Custom Trails', href: '/events/ella-trails' },
   ],
-  Company: [
-    { label: 'About Us', href: '/' },
-    { label: 'Gallery', href: '/gallery' },
-    { label: 'Blog', href: '/' },
-    { label: 'FAQ', href: '/' },
-    { label: 'Contact', href: '/#contact' },
-  ],
   Legal: [
     { label: 'Privacy Policy', href: '/' },
     { label: 'Terms of Service', href: '/' },
@@ -66,22 +59,8 @@ export default function Footer() {
               Providing premium guided hiking and tracking services in the Ella area since 2010.
               Connecting travelers to the Central Highlands' ultimate trails.
             </p>
-            <div className="space-y-3 mb-6">
-              <a href="mailto:hello@ellahikingtrails.lk" className="flex items-center gap-3 text-white/50 hover:text-gold transition-colors text-sm">
-                <Mail className="w-4 h-4 flex-shrink-0" />
-                hello@ellahikingtrails.lk
-              </a>
-              <a href="tel:+94712345678" className="flex items-center gap-3 text-white/50 hover:text-gold transition-colors text-sm">
-                <Phone className="w-4 h-4 flex-shrink-0" />
-                +94 71 234 5678
-              </a>
-              <div className="flex items-center gap-3 text-white/50 text-sm">
-                <MapPin className="w-4 h-4 flex-shrink-0" />
-                Ella, Badulla District, Sri Lanka
-              </div>
-            </div>
 
-            <div className="flex gap-3">
+            <div className="flex gap-3 justify-center lg:justify-start">
               {socials.map(({ icon: Icon, href, label }) => (
                 <a
                   key={label}
@@ -118,6 +97,26 @@ export default function Footer() {
               </ul>
             </div>
           ))}
+
+          <div>
+            <h4 className="font-display font-semibold text-white text-sm tracking-widest uppercase mb-4">
+              Contact
+            </h4>
+            <div className="space-y-3 mb-6">
+              <a href="mailto:hello@ellahikingtrails.lk" className="flex items-center gap-3 text-white/50 hover:text-gold transition-colors text-sm">
+                <Mail className="w-4 h-4 flex-shrink-0" />
+                hello@ellahikingtrails.lk
+              </a>
+              <a href="tel:+94712345678" className="flex items-center gap-3 text-white/50 hover:text-gold transition-colors text-sm">
+                <Phone className="w-4 h-4 flex-shrink-0" />
+                +94 71 234 5678
+              </a>
+              <div className="flex items-center gap-3 text-white/50 text-sm">
+                <MapPin className="w-4 h-4 flex-shrink-0" />
+                Ella, Badulla District, Sri Lanka
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="py-8 border-t border-white/10">

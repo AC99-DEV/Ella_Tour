@@ -1,146 +1,243 @@
 [
   {
     "id": 1,
-    "src": "https://images.unsplash.com/photo-1586015555751-63bb77f4322a?w=800&q=80",
-    "alt": "Nine Arch Bridge surrounded by lush jungle in Ella, Sri Lanka",
-    "caption": "Nine Arch Bridge",
-    "category": "Landmarks",
-    "featured": true,
-    "height": "tall"
+    "src": "https://images.unsplash.com/photo-1613693687360-8b0d54705746?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aGlrZSUyMGVsbGElMjBzcmklMjBsYW5rYXxlbnwwfHwwfHx8MA%3D%3D",
+    "alt": "One Day Hike Ella photo 1",
+    "caption": "One Day Hike Ella",
+    "category": "Hiking & Trekking",
+    "featured": false,
+    "height": "medium",
+    "details": "Gallery image from the One Day Hike Ella experience."
   },
   {
     "id": 2,
-    "src": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&q=80",
-    "alt": "Panoramic view from Ella Rock summit over rolling hills",
-    "caption": "Ella Rock Summit",
-    "category": "Hiking",
-    "featured": true,
-    "height": "medium"
+    "src": "https://images.unsplash.com/photo-1517586220462-f5712b9ec531?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGlrZSUyMGVsbGElMjBzcmklMjBsYW5rYXxlbnwwfHwwfHx8MA%3D%3D",
+    "alt": "One Day Hike Ella photo 2",
+    "caption": "One Day Hike Ella",
+    "category": "Hiking & Trekking",
+    "featured": false,
+    "height": "medium",
+    "details": "Gallery image from the One Day Hike Ella experience."
   },
   {
     "id": 3,
-    "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
-    "alt": "Ravana Waterfall cascading down mossy cliffs in Sri Lanka",
-    "caption": "Ravana Falls",
-    "category": "Waterfalls",
-    "featured": true,
-    "height": "tall"
+    "src": "https://images.unsplash.com/photo-1507499244229-be438d3c06d0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhpa2UlMjBlbGxhJTIwc3JpJTIwbGFua2F8ZW58MHx8MHx8fDA%3D",
+    "alt": "One Day Hike Ella photo 3",
+    "caption": "One Day Hike Ella",
+    "category": "Hiking & Trekking",
+    "featured": false,
+    "height": "medium",
+    "details": "Gallery image from the One Day Hike Ella experience."
   },
   {
     "id": 4,
-    "src": "https://images.unsplash.com/photo-1546842931-886c185b4c8c?w=800&q=80",
-    "alt": "Emerald tea plantation rows stretching across hillside in Ella",
-    "caption": "Uva Tea Estate",
-    "category": "Tea Plantations",
+    "src": "https://images.unsplash.com/photo-1624282407515-f02584f3f0c3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGhpa2UlMjBlbGxhJTIwc3JpJTIwbGFua2F8ZW58MHx8MHx8fDA%3D",
+    "alt": "Waterfall Ride Adventure photo 1",
+    "caption": "Waterfall Ride Adventure",
+    "category": "Cycling & Waterfalls",
     "featured": false,
-    "height": "medium"
+    "height": "medium",
+    "details": "Gallery image from the Waterfall Ride Adventure experience."
   },
   {
     "id": 5,
-    "src": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=800&q=80",
-    "alt": "Dramatic sunset over Ella hill country valley",
-    "caption": "Little Adam's Peak Sunset",
-    "category": "Sunrise & Sunset",
-    "featured": true,
-    "height": "medium"
+    "src": "https://images.unsplash.com/photo-1547984137-000193db2928?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fGhpa2UlMjBlbGxhJTIwc3JpJTIwbGFua2F8ZW58MHx8MHx8fDA%3D",
+    "alt": "Waterfall Ride Adventure photo 2",
+    "caption": "Waterfall Ride Adventure",
+    "category": "Cycling & Waterfalls",
+    "featured": false,
+    "height": "medium",
+    "details": "Gallery image from the Waterfall Ride Adventure experience."
   },
   {
     "id": 6,
-    "src": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&q=80",
-    "alt": "Misty mountain valley in Ella Sri Lanka at dawn",
-    "caption": "Morning Mist Valley",
-    "category": "Sunrise & Sunset",
+    "src": "https://images.unsplash.com/photo-1739121889655-26d89c5e7df0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fGhpa2UlMjBlbGxhJTIwc3JpJTIwbGFua2F8ZW58MHx8MHx8fDA%3D",
+    "alt": "Waterfall Ride Adventure photo 3",
+    "caption": "Waterfall Ride Adventure",
+    "category": "Cycling & Waterfalls",
     "featured": false,
-    "height": "tall"
+    "height": "medium",
+    "details": "Gallery image from the Waterfall Ride Adventure experience."
   },
   {
     "id": 7,
-    "src": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800&q=80",
-    "alt": "Aerial view of green rolling hills in Sri Lanka's hill country",
-    "caption": "Ella Hill Country",
-    "category": "Landscapes",
+    "src": "https://images.unsplash.com/photo-1559581062-8c76e78f21cc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fHN1bnJpc2UtaGlrZSUyMGVsbGElMjBzcmklMjBsYW5rYXxlbnwwfHwwfHx8MA%3D%3D",
+    "alt": "Sunrise Hike photo 1",
+    "caption": "Sunrise Hike",
+    "category": "Hiking & Trekking",
     "featured": false,
-    "height": "medium"
+    "height": "medium",
+    "details": "Gallery image from the Sunrise Hike experience."
   },
   {
     "id": 8,
-    "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-    "alt": "Traditional Sri Lankan tea being poured into a cup",
-    "caption": "Ceylon Tea Experience",
-    "category": "Tea Plantations",
+    "src": "https://images.unsplash.com/photo-1677223625838-efaac01a5efb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHN1bnJpc2UtaGlrZSUyMGVsbGElMjBzcmklMjBsYW5rYXxlbnwwfHwwfHx8MA%3D%3D",
+    "alt": "Sunrise Hike photo 2",
+    "caption": "Sunrise Hike",
+    "category": "Hiking & Trekking",
     "featured": false,
-    "height": "medium"
+    "height": "medium",
+    "details": "Gallery image from the Sunrise Hike experience."
   },
   {
     "id": 9,
-    "src": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=800&q=80",
-    "alt": "Tea leaves being plucked by local workers in Sri Lanka",
-    "caption": "Tea Leaf Harvest",
-    "category": "Tea Plantations",
+    "src": "https://images.unsplash.com/photo-1585171095587-208afbf98724?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3VucmlzZS1oaWtlJTIwZWxsYSUyMHNyaSUyMGxhbmthfGVufDB8fDB8fHww",
+    "alt": "Sunrise Hike photo 3",
+    "caption": "Sunrise Hike",
+    "category": "Hiking & Trekking",
     "featured": false,
-    "height": "tall"
+    "height": "medium",
+    "details": "Gallery image from the Sunrise Hike experience."
   },
   {
     "id": 10,
-    "src": "https://images.unsplash.com/photo-1612528443702-f6741f70a049?w=800&q=80",
-    "alt": "Tropical waterfall hidden in lush Sri Lanka jungle",
-    "caption": "Hidden Jungle Falls",
-    "category": "Waterfalls",
+    "src": "https://images.unsplash.com/photo-1639401672371-0c4be4389107?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG5hdHVyYWwtcG9vbHMlMjBlbGxhJTIwc3JpJTIwbGFua2F8ZW58MHx8MHx8fDA%3D",
+    "alt": "Discovering Natural Pools photo 1",
+    "caption": "Discovering Natural Pools",
+    "category": "Nature Trails",
     "featured": false,
-    "height": "medium"
+    "height": "medium",
+    "details": "Gallery image from the Discovering Natural Pools experience."
   },
   {
     "id": 11,
-    "src": "https://images.unsplash.com/photo-1588392382834-a891154bca4d?w=800&q=80",
-    "alt": "Buddhist temple on mountainside in Sri Lanka",
-    "caption": "Ancient Temple",
-    "category": "Culture",
+    "src": "https://images.unsplash.com/photo-1562835613-bf320d40ac5f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTl8fG5hdHVyYWwtcG9vbHMlMjBlbGxhJTIwc3JpJTIwbGFua2F8ZW58MHx8MHx8fDA%3D",
+    "alt": "Discovering Natural Pools photo 2",
+    "caption": "Discovering Natural Pools",
+    "category": "Nature Trails",
     "featured": false,
-    "height": "medium"
+    "height": "medium",
+    "details": "Gallery image from the Discovering Natural Pools experience."
   },
   {
     "id": 12,
-    "src": "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=800&q=80",
-    "alt": "Railway bridge arch detail in Ella Sri Lanka",
-    "caption": "Bridge Architecture",
-    "category": "Landmarks",
+    "src": "https://images.unsplash.com/photo-1621355773011-cad4fa6be15e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fG5hdHVyYWwtcG9vbHMlMjBlbGxhJTIwc3JpJTIwbGFua2F8ZW58MHx8MHx8fDA%3D",
+    "alt": "Discovering Natural Pools photo 3",
+    "caption": "Discovering Natural Pools",
+    "category": "Nature Trails",
     "featured": false,
-    "height": "tall"
+    "height": "medium",
+    "details": "Gallery image from the Discovering Natural Pools experience."
   },
   {
     "id": 13,
-    "src": "https://images.unsplash.com/photo-1467173572719-f14b9fb86e5f?w=800&q=80",
-    "alt": "Crystal clear waterfall pool in tropical forest",
-    "caption": "Natural Pool",
-    "category": "Waterfalls",
+    "src": "https://media.istockphoto.com/id/2265226266/photo/mountain-ridge-hiking-trail-under-blue-sky-in-tropical-forest.jpg?s=612x612&w=0&k=20&c=641QYodSZRXYj9ntA1ftOmVgTdUOodolhIIKtISc1Po=",
+    "alt": "Trails photo 1",
+    "caption": "Trails",
+    "category": "Hiking & Trekking",
     "featured": false,
-    "height": "medium"
+    "height": "medium",
+    "details": "Gallery image from the Trails experience."
   },
   {
     "id": 14,
-    "src": "https://images.unsplash.com/photo-1443926886338-a47f0c7f6ade?w=800&q=80",
-    "alt": "Hiker on rocky peak with panoramic mountain view",
-    "caption": "Summit Adventure",
-    "category": "Hiking",
+    "src": "https://media.istockphoto.com/id/1028018062/photo/travel-concept-couple-sitting-on-top-of-small-adams-peak-near-ella-sri-lanka.jpg?s=612x612&w=0&k=20&c=HFyW_zhr6raBtz3naStJB9ygh3nkgFL0wmiONiS4db0=",
+    "alt": "Trails photo 2",
+    "caption": "Trails",
+    "category": "Hiking & Trekking",
     "featured": false,
-    "height": "medium"
+    "height": "medium",
+    "details": "Gallery image from the Trails experience."
   },
   {
     "id": 15,
-    "src": "https://images.unsplash.com/photo-1455156218388-5e61b526818b?w=800&q=80",
-    "alt": "Lush green jungle landscape in Sri Lanka",
-    "caption": "Jungle Canopy",
-    "category": "Landscapes",
+    "src": "https://media.istockphoto.com/id/1402272021/photo/mountains-with-rainforest-and-jungle-in-the-mountainous-province-of-sri-lanka.jpg?s=612x612&w=0&k=20&c=isuO6XJO0Ztgmj-O23xiLNu9QN1uP540J_KgCtSnzFs=",
+    "alt": "Trails photo 3",
+    "caption": "Trails",
+    "category": "Hiking & Trekking",
     "featured": false,
-    "height": "tall"
+    "height": "medium",
+    "details": "Gallery image from the Trails experience."
   },
   {
     "id": 16,
-    "src": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800&q=80",
-    "alt": "Misty morning forest with sunlight filtering through trees",
-    "caption": "Misty Forest Dawn",
-    "category": "Landscapes",
+    "src": "https://images.unsplash.com/photo-1628940671199-3cae5ead7824?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fHZpbGxhZ2UtbGlmZSUyMHRyYWNraW5nJTIwZWxsYXxlbnwwfHwwfHx8MA%3D%3D",
+    "alt": "Village Life Tracking photo 1",
+    "caption": "Village Life Tracking",
+    "category": "Cultural Trails",
     "featured": false,
-    "height": "medium"
+    "height": "medium",
+    "details": "Gallery image from the Village Life Tracking experience."
+  },
+  {
+    "id": 17,
+    "src": "https://images.unsplash.com/photo-1605749968119-401f2c93528d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fHZpbGxhZ2UtbGlmZSUyMHRyYWNraW5nJTIwZWxsYXxlbnwwfHwwfHx8MA%3D%3D",
+    "alt": "Village Life Tracking photo 2",
+    "caption": "Village Life Tracking",
+    "category": "Cultural Trails",
+    "featured": false,
+    "height": "medium",
+    "details": "Gallery image from the Village Life Tracking experience."
+  },
+  {
+    "id": 18,
+    "src": "https://plus.unsplash.com/premium_photo-1661957883806-4f6d9ffff913?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dmlsbGFnZS1saWZlJTIwdHJhY2tpbmclMjBlbGxhfGVufDB8fDB8fHww",
+    "alt": "Village Life Tracking photo 3",
+    "caption": "Village Life Tracking",
+    "category": "Cultural Trails",
+    "featured": false,
+    "height": "medium",
+    "details": "Gallery image from the Village Life Tracking experience."
+  },
+  {
+    "id": 19,
+    "src": "https://plus.unsplash.com/premium_photo-1683290218013-e846bd2c8227?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQxfHxLaXRodWwlMjBUb3VyJTIwZWxsYSUyMHNyaSUyMGxhbmFrYXxlbnwwfHwwfHx8MA%3D%3D",
+    "alt": "Kithul Tour photo 1",
+    "caption": "Kithul Tour",
+    "category": "Cultural Trails",
+    "featured": false,
+    "height": "medium",
+    "details": "Gallery image from the Kithul Tour experience."
+  },
+  {
+    "id": 20,
+    "src": "https://images.unsplash.com/photo-1596192310963-dcf9d144dcd3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIzfHxLaXRodWwlMjBUb3VyJTIwZWxsYSUyMHNyaSUyMGxhbmFrYXxlbnwwfHwwfHx8MA%3D%3D",
+    "alt": "Kithul Tour photo 2",
+    "caption": "Kithul Tour",
+    "category": "Cultural Trails",
+    "featured": false,
+    "height": "medium",
+    "details": "Gallery image from the Kithul Tour experience."
+  },
+  {
+    "id": 21,
+    "src": "https://plus.unsplash.com/premium_photo-1770311037884-e1b1acfed245?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njl8fEtpdGh1bCUyMFRvdXIlMjBlbGxhJTIwc3JpJTIwbGFuYWthfGVufDB8fDB8fHww",
+    "alt": "Kithul Tour photo 3",
+    "caption": "Kithul Tour",
+    "category": "Cultural Trails",
+    "featured": false,
+    "height": "medium",
+    "details": "Gallery image from the Kithul Tour experience."
+  },
+  {
+    "id": 22,
+    "src": "https://media.istockphoto.com/id/1151590277/photo/young-woman-roasting-balinese-coffee.jpg?s=612x612&w=0&k=20&c=zLl8meKOTTaIIW1RFgR93RPBj4Nd3EMURoZxffXESbc=",
+    "alt": "Riverside Cooking photo 1",
+    "caption": "Riverside Cooking",
+    "category": "Food & Nature",
+    "featured": false,
+    "height": "medium",
+    "details": "Gallery image from the Riverside Cooking experience."
+  },
+  {
+    "id": 23,
+    "src": "https://media.istockphoto.com/id/1277872016/photo/local-coffee-mixing-roasted-home-made-indonesia.jpg?s=612x612&w=0&k=20&c=FWxfhuY3UnjnvDS-K5pQDWzpD0bV3Yq53_QlPSlxKuU=",
+    "alt": "Riverside Cooking photo 2",
+    "caption": "Riverside Cooking",
+    "category": "Food & Nature",
+    "featured": false,
+    "height": "medium",
+    "details": "Gallery image from the Riverside Cooking experience."
+  },
+  {
+    "id": 24,
+    "src": "https://media.istockphoto.com/id/2209005322/photo/sri-lankan-woman-grinding-a-grain.jpg?s=612x612&w=0&k=20&c=1BnZJV7KrZCBAEu6oKKI7hXrKzuytVsdBHiBBDn8CaI=",
+    "alt": "Riverside Cooking photo 3",
+    "caption": "Riverside Cooking",
+    "category": "Food & Nature",
+    "featured": false,
+    "height": "medium",
+    "details": "Gallery image from the Riverside Cooking experience."
   }
 ]
+
