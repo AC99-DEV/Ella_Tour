@@ -3,6 +3,7 @@ import { motion, AnimatePresence, useScroll, useTransform } from 'framer-motion'
 import { Search, ChevronDown, Star, Users, Map, CloudSun, MapPin, SlidersHorizontal } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
 import CustomDropdown from './CustomDropdown'
+import eventsData from '../data/events.json'
 
 const activityOptions = [
   { value: 'All', label: 'All Activities' },
@@ -26,11 +27,6 @@ const priceOptions = [
   { value: 'over15000', label: 'Over LKR 15000' }
 ]
 
-const stats = [
-  { icon: Star, value: '4.9', label: 'Avg Rating' },
-  { icon: Users, value: '2,400+', label: 'Happy Travelers' },
-  { icon: Map, value: '5', label: 'Curated Experiences' },
-]
 
 const slides = [
   {
@@ -63,6 +59,24 @@ export default function HeroSection() {
   const [activity, setActivity] = useState('All')
   const [difficulty, setDifficulty] = useState('All')
   const [priceRange, setPriceRange] = useState('All')
+
+  // Dynamic stats from events data
+  const curatedCount = Array.isArray(eventsData) ? eventsData.length : 0
+  const totalReviews = Array.isArray(eventsData) ? eventsData.reduce((s, e) => s + (e.reviewCount || 0), 0) : 0
+  const avgRating = Array.isArray(eventsData) && eventsData.length > 0
+    ? (eventsData.reduce((s, e) => s + (e.rating || 0), 0) / eventsData.length).toFixed(1)
+    : '0.0'
+
+  const stats = [
+    { icon: Star, value: avgRating, label: 'Avg Rating' },
+    { icon: Users, value: `${totalReviews.toLocaleString()}+`, label: 'Happy Travelers' },
+    { icon: Map, value: `${curatedCount}`, label: 'Curated Experiences' },
+  ]
+
+  // top rated event for the Top Experience card
+  const topEvent = Array.isArray(eventsData) && eventsData.length > 0
+    ? [...eventsData].sort((a, b) => (b.rating || 0) - (a.rating || 0))[0]
+    : null
 
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start start', 'end start'] })
   const y = useTransform(scrollYProgress, [0, 1], ['0%', '30%'])
@@ -284,11 +298,11 @@ export default function HeroSection() {
             </div>
             <div>
               <div className="text-white/60 text-xs font-body uppercase tracking-wider">Top Experience</div>
-              <div className="font-display font-bold text-white text-lg">Nine Arch Bridge</div>
+              <div className="font-display font-bold text-white text-lg">{topEvent ? topEvent.title : 'Nine Arch Bridge'}</div>
               <div className="flex items-center gap-1.5 mt-0.5">
                 <Star className="w-3.5 h-3.5 text-gold fill-gold" />
-                <span className="text-white text-xs font-semibold">4.9</span>
-                <span className="text-white/50 text-xs">(420+ reviews)</span>
+                <span className="text-white text-xs font-semibold">{topEvent ? topEvent.rating : '4.9'}</span>
+                <span className="text-white/50 text-xs">({topEvent ? `${topEvent.reviewCount || 0}+ reviews` : '420+ reviews'})</span>
               </div>
             </div>
           </motion.div>
