@@ -1,6 +1,7 @@
 import React, { useState, useCallback } from 'react'
+import { Link } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
-import { X, ChevronLeft, ChevronRight, Camera, Grid3X3, LayoutGrid } from 'lucide-react'
+import { X, ChevronLeft, ChevronRight, Camera, Grid3X3, LayoutGrid, ArrowLeft } from 'lucide-react'
 import PageTransition from '../components/PageTransition'
 import GalleryImage from '../components/GalleryImage'
 import ScrollReveal from '../components/ScrollReveal'
@@ -52,6 +53,21 @@ export default function GalleryPage() {
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-forest-dark via-forest/40 to-forest/20" />
+        </div>
+
+        {/* Back button */}
+        <div className="absolute top-24 left-0 right-0 z-20 pointer-events-none">
+          <div className="max-w-7xl mx-auto px-4 md:px-8 w-full flex">
+            <Link
+              to="/"
+              className="pointer-events-auto flex items-center gap-2 bg-white/15 backdrop-blur-md 
+                         text-white px-4 py-2 rounded-full text-sm font-body font-medium 
+                         hover:bg-white/25 transition-all duration-300 shadow-lg border border-white/10"
+            >
+              <ArrowLeft className="w-4 h-4" />
+              Back
+            </Link>
+          </div>
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 w-full pb-10">
           <motion.div

@@ -22,9 +22,9 @@ export default function EventsSection() {
       const cat = categoryFilter.toLowerCase()
       const eventCat = event.category.toLowerCase()
       if (cat === 'hiking' && !eventCat.includes('hiking') && !eventCat.includes('trekking')) return false
-      if (cat === 'culture' && !eventCat.includes('culture') && !eventCat.includes('nature')) return false
-      if (cat === 'sunset' && !eventCat.includes('sunset')) return false
-      if (cat === 'experience' && !eventCat.includes('experience') && !eventCat.includes('tea')) return false
+      if (cat === 'culture' && !eventCat.includes('culture') && !eventCat.includes('cultural') && !eventCat.includes('nature')) return false
+      if (cat === 'sunset' && !eventCat.includes('sunset') && !event.title.toLowerCase().includes('sunset') && !event.title.toLowerCase().includes('sunrise') && !event.shortDescription.toLowerCase().includes('sunset') && !event.shortDescription.toLowerCase().includes('sunrise')) return false
+      if (cat === 'experience' && !eventCat.includes('experience') && !eventCat.includes('tea') && !event.title.toLowerCase().includes('tea') && !event.shortDescription.toLowerCase().includes('tea') && !event.highlights.some(h => h.toLowerCase().includes('tea'))) return false
       if (cat !== 'hiking' && cat !== 'culture' && cat !== 'sunset' && cat !== 'experience' && eventCat !== cat) return false
     }
 
@@ -34,9 +34,9 @@ export default function EventsSection() {
 
     if (priceFilter && priceFilter !== 'All') {
       const price = event.price
-      if (priceFilter === 'under40' && price >= 40) return false
-      if (priceFilter === '40to50' && (price < 40 || price > 50)) return false
-      if (priceFilter === 'over50' && price <= 50) return false
+      if (priceFilter === 'under11000' && price >= 11000) return false
+      if (priceFilter === '11000 to 14000' && (price < 11000 || price > 14000)) return false
+      if (priceFilter === 'over15000' && price < 15000) return false
     }
 
     return true
