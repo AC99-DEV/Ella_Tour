@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "src": "https://images.unsplash.com/photo-1586015555751-63bb77f4322a?w=800&q=80",
+    "alt": "Nine Arch Bridge surrounded by lush jungle in Ella, Sri Lanka",
+    "caption": "Nine Arch Bridge",
+    "category": "Landmarks",
+    "featured": true,
+    "height": "tall"
+  },
+  {
+    "id": 2,
+    "src": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&q=80",
+    "alt": "Panoramic view from Ella Rock summit over rolling hills",
+    "caption": "Ella Rock Summit",
+    "category": "Hiking",
+    "featured": true,
+    "height": "medium"
+  },
+  {
+    "id": 3,
+    "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    "alt": "Ravana Waterfall cascading down mossy cliffs in Sri Lanka",
+    "caption": "Ravana Falls",
+    "category": "Waterfalls",
+    "featured": true,
+    "height": "tall"
+  },
+  {
+    "id": 4,
+    "src": "https://images.unsplash.com/photo-1546842931-886c185b4c8c?w=800&q=80",
+    "alt": "Emerald tea plantation rows stretching across hillside in Ella",
+    "caption": "Uva Tea Estate",
+    "category": "Tea Plantations",
+    "featured": false,
+    "height": "medium"
+  },
+  {
+    "id": 5,
+    "src": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=800&q=80",
+    "alt": "Dramatic sunset over Ella hill country valley",
+    "caption": "Little Adam's Peak Sunset",
+    "category": "Sunrise & Sunset",
+    "featured": true,
+    "height": "medium"
+  },
+  {
+    "id": 6,
+    "src": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&q=80",
+    "alt": "Misty mountain valley in Ella Sri Lanka at dawn",
+    "caption": "Morning Mist Valley",
+    "category": "Sunrise & Sunset",
+    "featured": false,
+    "height": "tall"
+  },
+  {
+    "id": 7,
+    "src": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800&q=80",
+    "alt": "Aerial view of green rolling hills in Sri Lanka's hill country",
+    "caption": "Ella Hill Country",
+    "category": "Landscapes",
+    "featured": false,
+    "height": "medium"
+  },
+  {
+    "id": 8,
+    "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+    "alt": "Traditional Sri Lankan tea being poured into a cup",
+    "caption": "Ceylon Tea Experience",
+    "category": "Tea Plantations",
+    "featured": false,
+    "height": "medium"
+  },
+  {
+    "id": 9,
+    "src": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=800&q=80",
+    "alt": "Tea leaves being plucked by local workers in Sri Lanka",
+    "caption": "Tea Leaf Harvest",
+    "category": "Tea Plantations",
+    "featured": false,
+    "height": "tall"
+  },
+  {
+    "id": 10,
+    "src": "https://images.unsplash.com/photo-1612528443702-f6741f70a049?w=800&q=80",
+    "alt": "Tropical waterfall hidden in lush Sri Lanka jungle",
+    "caption": "Hidden Jungle Falls",
+    "category": "Waterfalls",
+    "featured": false,
+    "height": "medium"
+  },
+  {
+    "id": 11,
+    "src": "https://images.unsplash.com/photo-1588392382834-a891154bca4d?w=800&q=80",
+    "alt": "Buddhist temple on mountainside in Sri Lanka",
+    "caption": "Ancient Temple",
+    "category": "Culture",
+    "featured": false,
+    "height": "medium"
+  },
+  {
+    "id": 12,
+    "src": "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=800&q=80",
+    "alt": "Railway bridge arch detail in Ella Sri Lanka",
+    "caption": "Bridge Architecture",
+    "category": "Landmarks",
+    "featured": false,
+    "height": "tall"
+  },
+  {
+    "id": 13,
+    "src": "https://images.unsplash.com/photo-1467173572719-f14b9fb86e5f?w=800&q=80",
+    "alt": "Crystal clear waterfall pool in tropical forest",
+    "caption": "Natural Pool",
+    "category": "Waterfalls",
+    "featured": false,
+    "height": "medium"
+  },
+  {
+    "id": 14,
+    "src": "https://images.unsplash.com/photo-1443926886338-a47f0c7f6ade?w=800&q=80",
+    "alt": "Hiker on rocky peak with panoramic mountain view",
+    "caption": "Summit Adventure",
+    "category": "Hiking",
+    "featured": false,
+    "height": "medium"
+  },
+  {
+    "id": 15,
+    "src": "https://images.unsplash.com/photo-1455156218388-5e61b526818b?w=800&q=80",
+    "alt": "Lush green jungle landscape in Sri Lanka",
+    "caption": "Jungle Canopy",
+    "category": "Landscapes",
+    "featured": false,
+    "height": "tall"
+  },
+  {
+    "id": 16,
+    "src": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800&q=80",
+    "alt": "Misty morning forest with sunlight filtering through trees",
+    "caption": "Misty Forest Dawn",
+    "category": "Landscapes",
+    "featured": false,
+    "height": "medium"
+  }
+]
