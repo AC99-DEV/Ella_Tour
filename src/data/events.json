@@ -1,5 +1,53 @@
 [
   {
+    "id": "ella-rock-sunrise-hike",
+    "title": "Ella Rock Sunrise Hike",
+    "subtitle": "Conquer Ella's highest peak to witness a breathtaking morning sunrise",
+    "category": "Hiking & Trekking",
+    "date": "Available Daily",
+    "displayDate": "Daily Departure",
+    "time": "04:30 AM",
+    "duration": "5 hours",
+    "location": "Ella City Center",
+    "price": 8500,
+    "currency": "LKR",
+    "rating": 4.8,
+    "reviewCount": 245,
+    "maxGuests": 15,
+    "image": "https://images.unsplash.com/photo-1507499244229-be438d3c06d0?w=600&auto=format&fit=crop&q=60",
+    "thumbnail": "https://images.unsplash.com/photo-1507499244229-be438d3c06d0?w=600&auto=format&fit=crop&q=60",
+    "tag": "Top Rated",
+    "tagColor": "green",
+    "difficulty": "Moderate",
+    "shortDescription": "An early morning 11km trek to the 1,350m summit of Ella Rock. Witness a spectacular sunrise over the misty hills, led by an experienced guide.",
+    "description1": "The highest peak in the Ella area is Ella Rock. It is located at an altitude of 1350 meters (4429 feet) above sea level. Watching the sunrise in the morning is a very beautiful sight. Many people who visit Ella come for this hiking experience and to watch the sunrise. To successfully complete this early morning hiking activity, the assistance of an experienced guide is required.",
+    "description2": "Kick off your adventure at 04:30 AM from Ella City center to beat the morning heat and reach the peak just in time for dawn. Ascending to 1,350 meters above sea level, you will navigate through serene railway paths and lush tea trails. At the summit, watch the landscape light up with the golden hues of a Sri Lankan sunrise before making your descent back to town by 09:30 AM.",
+    "highlights": [
+      "11km early morning summit trek",
+      "Spectacular sunrise views from 1,350m above sea level",
+      "Led by an experienced local guide",
+      "Hike through scenic rail tracks and misty tea estates",
+      "Fresh morning air and panoramic valley photography"
+    ],
+    "included": [
+      "Experienced local trekking guide",
+      "Morning tea or coffee",
+      "Light snacks and bottled water",
+      "All trail navigation and safety briefing"
+    ],
+    "itinerary": [
+      { "time": "04:30 AM", "activity": "Meet at Ella City center, briefing and headcount" },
+      { "time": "05:00 AM", "activity": "Commence trek along the railway line and tea plantation paths" },
+      { "time": "06:00 AM", "activity": "Reach Ella Rock summit to witness the spectacular sunrise" },
+      { "time": "07:30 AM", "activity": "Begin descent, exploring viewpoint lookouts along the way" },
+      { "time": "09:30 AM", "activity": "Arrive back in Ella City center (End of trek)" }
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1613693687360-8b0d54705746?w=600&auto=format&fit=crop&q=60",
+      "https://images.unsplash.com/photo-1517586220462-f5712b9ec531?w=600&auto=format&fit=crop&q=60"
+    ]
+  },
+  {
     "id": "one-day-hike-ella",
     "title": "One Day Hike Ella",
     "subtitle": "A premium guided loop through Ella's greatest highlights",
@@ -14,16 +62,16 @@
     "rating": 4.9,
     "reviewCount": 312,
     "maxGuests": 12,
-    "image": "https://images.unsplash.com/photo-1684462404172-6d469643606e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGhpa2UlMjBlbGxhJTIwc3JpJTIwbGFua2F8ZW58MHx8MHx8fDA%3D",
-    "thumbnail": "https://images.unsplash.com/photo-1684462404172-6d469643606e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGhpa2UlMjBlbGxhJTIwc3JpJTIwbGFua2F8ZW58MHx8MHx8fDA%3D",
+    "image": "https://images.unsplash.com/photo-1684462404172-6d469643606e?w=600&auto=format&fit=crop&q=60",
+    "thumbnail": "https://images.unsplash.com/photo-1684462404172-6d469643606e?w=600&auto=format&fit=crop&q=60",
     "tag": "Most Popular",
     "tagColor": "gold",
     "difficulty": "Challenging",
-    "shortDescription": "A comprehensive 15.4km trek covering Nine Arch Bridge, Ella Rock, Kithalella Waterfall, and Ravana Cave & Temple, led by expert guides with emergency support.",
+    "shortDescription": "A comprehensive 20km trek covering Nine Arch Bridge, Ella Rock, Kithalella Waterfall, and Ravana Cave & Temple, led by expert guides with emergency support.",
     "description1": "The Ella area is a tourist attraction with a lot of breathtaking views. This hiking activity is 15.4km long and is led by a skilled guide. An emergency unit is ready to provide services at any time.",
-    "description2": "Your journey begins in Ella City at 08:00 AM, wrapping up around 03:00 PM. Along the loop, you will hike through active tea plantations, cross the historical Nine Arch Bridge, ascend the iconic Ella Rock summit, rest near the cooling Kithalella Waterfall, and explore the ancient Ravana Cave and Temple. An emergency support vehicle is stationed nearby to ensure a safe and relaxing experience.",
+    "description2": "Your journey begins in Ella City at 08:00 AM, wrapping up around 03:00 PM. Along the grand 20km loop, you will hike through active tea plantations, cross the historical Nine Arch Bridge, ascend the iconic Ella Rock summit, rest near the cooling Kithalella Waterfall, and explore the ancient Ravana Cave and Temple. An emergency support vehicle is stationed nearby to ensure a safe and relaxing experience.",
     "highlights": [
-      "15.4km scenic loop trek",
+      "20km comprehensive scenic loop trek",
       "Guided by a certified local expert",
       "Emergency medical unit ready at any time",
       "Cover 4 major Ella landmarks in one day",
@@ -46,357 +94,66 @@
       { "time": "03:00 PM", "activity": "Return to Ella City (End of trek)" }
     ],
     "gallery": [
-      "https://images.unsplash.com/photo-1613693687360-8b0d54705746?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aGlrZSUyMGVsbGElMjBzcmklMjBsYW5rYXxlbnwwfHwwfHx8MA%3D%3D",
-      "https://images.unsplash.com/photo-1517586220462-f5712b9ec531?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGlrZSUyMGVsbGElMjBzcmklMjBsYW5rYXxlbnwwfHwwfHx8MA%3D%3D",
-      "https://images.unsplash.com/photo-1507499244229-be438d3c06d0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhpa2UlMjBlbGxhJTIwc3JpJTIwbGFua2F8ZW58MHx8MHx8fDA%3D"
+      "https://images.unsplash.com/photo-1613693687360-8b0d54705746?w=600&auto=format&fit=crop&q=60",
+      "https://images.unsplash.com/photo-1517586220462-f5712b9ec531?w=600&auto=format&fit=crop&q=60",
+      "https://images.unsplash.com/photo-1507499244229-be438d3c06d0?w=600&auto=format&fit=crop&q=60"
     ]
   },
   {
     "id": "waterfall-ride",
-    "title": "Waterfall Ride Adventure",
-    "subtitle": "Discover hidden streams and cooling highland cascades",
-    "category": "Cycling & Waterfalls",
+    "title": "Waterfall Ride",
+    "subtitle": "Discover Sri Lanka's tallest and most beautiful waterfalls in a single day",
+    "category": "Sightseeing & Tours",
     "date": "Available Daily",
     "displayDate": "Daily Departure",
-    "time": "09:00 AM",
-    "duration": "5 hours",
-    "location": "Ravana Falls & Secret Valley",
-    "price": 11000,
-    "currency": "LKR",
-    "rating": 4.8,
-    "reviewCount": 142,
-    "maxGuests": 10,
-    "image": "https://images.unsplash.com/photo-1648905862906-ee3e3eda1ea5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpa2UlMjBlbGxhJTIwc3JpJTIwbGFua2F8ZW58MHx8MHx8fDA%3D",
-    "thumbnail": "https://images.unsplash.com/photo-1648905862906-ee3e3eda1ea5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpa2UlMjBlbGxhJTIwc3JpJTIwbGFua2F8ZW58MHx8MHx8fDA%3D",
-    "tag": "Adventure",
-    "tagColor": "forest",
-    "difficulty": "Moderate",
-    "shortDescription": "Explore Ella's misty waterfall valleys on custom mountain bikes, visit Ravana Falls, and take a refreshing dip in secret natural plunge pools.",
-    "description1": "Ride through the lush mountain bypasses of Ella on custom mountain bikes, stopping at major cascading waterfalls. This tour combines adventure and nature as you cruise down valleys lined with dense tree canopies and ancient cliffs.",
-    "description2": "Learn about the local geology and hydrologic systems of the Central Highlands. A cooling swim in a secret mountain pool is included, followed by a warm tea tasting at a roadside wooden shack overlooking the tea valleys.",
-    "highlights": [
-      "Mountain bike down beautiful valley paths",
-      "Swim in secret freshwater plunge pools",
-      "Experienced safety rider guide",
-      "Visit Ravana Falls and surrounding cascades",
-      "Roadside tea tasting session"
-    ],
-    "included": [
-      "Custom mountain bike and helmet",
-      "Expert safety rider guide",
-      "Hydration and energy snacks",
-      "Fresh towels for swimming",
-      "Ceylon tea tasting session"
-    ],
-    "itinerary": [
-      { "time": "09:00 AM", "activity": "Meet at shop, safety brief and bike fitting" },
-      { "time": "09:30 AM", "activity": "Begin downhill ride into Ravana Valley" },
-      { "time": "10:30 AM", "activity": "Visit Ravana Falls, photography session" },
-      { "time": "11:30 AM", "activity": "Ride to secret jungle natural pools, swim time" },
-      { "time": "01:00 PM", "activity": "Traditional tea tasting and snacks" },
-      { "time": "02:00 PM", "activity": "Return transport to Ella town center" }
-    ],
-    "gallery": [
-      "https://images.unsplash.com/photo-1624282407515-f02584f3f0c3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGhpa2UlMjBlbGxhJTIwc3JpJTIwbGFua2F8ZW58MHx8MHx8fDA%3D",
-      "https://images.unsplash.com/photo-1547984137-000193db2928?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fGhpa2UlMjBlbGxhJTIwc3JpJTIwbGFua2F8ZW58MHx8MHx8fDA%3D",
-      "https://images.unsplash.com/photo-1739121889655-26d89c5e7df0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fGhpa2UlMjBlbGxhJTIwc3JpJTIwbGFua2F8ZW58MHx8MHx8fDA%3D"
-    ]
-  },
-  {
-    "id": "sunrise-hike",
-    "title": "Sunrise Hike",
-    "subtitle": "Golden rays casting over the misty mountain gaps",
-    "category": "Hiking & Trekking",
-    "date": "Available Daily",
-    "displayDate": "Daily Departure",
-    "time": "05:00 AM",
-    "duration": "3 hours",
-    "location": "Little Adam's Peak",
-    "price": 8000,
-    "currency": "LKR",
-    "rating": 4.9,
-    "reviewCount": 427,
-    "maxGuests": 15,
-    "image": "https://images.unsplash.com/photo-1633573626280-d5c4f64dffa7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1bnJpc2UtaGlrZSUyMGVsbGElMjBzcmklMjBsYW5rYXxlbnwwfHwwfHx8MA%3D%3D",
-    "thumbnail": "https://images.unsplash.com/photo-1633573626280-d5c4f64dffa7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHN1bnJpc2UtaGlrZSUyMGVsbGElMjBzcmklMjBsYW5rYXxlbnwwfHwwfHx8MA%3D%3D",
-    "tag": "Bestseller",
-    "tagColor": "gold",
-    "difficulty": "Easy",
-    "shortDescription": "A gentle early morning walk through tea gardens to the peak of Little Adam's Peak to watch the sunrise over the Ella Gap.",
-    "description1": "Wake before dawn and follow a guide through quiet tea paths. The summit of Little Adam's Peak offers a spectacular vantage point to watch the valley light up in orange and magenta.",
-    "description2": "Perfect for families and photographers. Enjoy a freshly brewed cup of Ceylon tea at the summit while listening to the waking sounds of the highland forests.",
-    "highlights": [
-      "Watch the sunrise over the iconic Ella Gap",
-      "Easy walk accessible for all fitness levels",
-      "Trek through lush green tea plantations",
-      "Freshly brewed mountain tea at the summit",
-      "Great photo spots along the ridge line"
-    ],
-    "included": [
-      "Local hiking guide",
-      "Summit tea and biscuits",
-      "Flashlights / Headlamps",
-      "Pick up from Ella town hotels"
-    ],
-    "itinerary": [
-      { "time": "05:00 AM", "activity": "Pick up and transfer to trail head" },
-      { "time": "05:20 AM", "activity": "Start hike through quiet tea gardens" },
-      { "time": "05:50 AM", "activity": "Arrive at summit, set up tea spot" },
-      { "time": "06:10 AM", "activity": "Sunrise over the mountains" },
-      { "time": "07:00 AM", "activity": "Descend via alternate route" },
-      { "time": "08:00 AM", "activity": "Return to your accommodation" }
-    ],
-    "gallery": [
-      "https://images.unsplash.com/photo-1559581062-8c76e78f21cc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fHN1bnJpc2UtaGlrZSUyMGVsbGElMjBzcmklMjBsYW5rYXxlbnwwfHwwfHx8MA%3D%3D",
-      "https://images.unsplash.com/photo-1677223625838-efaac01a5efb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHN1bnJpc2UtaGlrZSUyMGVsbGElMjBzcmklMjBsYW5rYXxlbnwwfHwwfHx8MA%3D%3D",
-      "https://images.unsplash.com/photo-1585171095587-208afbf98724?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3VucmlzZS1oaWtlJTIwZWxsYSUyMHNyaSUyMGxhbmthfGVufDB8fDB8fHww"
-    ]
-  },
-  {
-    "id": "natural-pools",
-    "title": "Discovering Natural Pools",
-    "subtitle": "Trek to secret river pools hidden deep in the forest",
-    "category": "Nature Trails",
-    "date": "Available Daily",
-    "displayDate": "Daily Departure",
-    "time": "09:30 AM",
-    "duration": "4 hours",
-    "location": "Ella Forest Reserves",
-    "price": 10000,
+    "time": "07:00 AM",
+    "duration": "12 hours",
+    "location": "Ella City Center",
+    "price": 28000,
     "currency": "LKR",
     "rating": 4.7,
-    "reviewCount": 89,
+    "reviewCount": 189,
     "maxGuests": 8,
-    "image": "https://images.unsplash.com/photo-1627441283320-7c259a477c25?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bmF0dXJhbC1wb29scyUyMGVsbGElMjBzcmklMjBsYW5rYXxlbnwwfHwwfHx8MA%3D%3D",
-    "thumbnail": "https://images.unsplash.com/photo-1627441283320-7c259a477c25?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bmF0dXJhbC1wb29scyUyMGVsbGElMjBzcmklMjBsYW5rYXxlbnwwfHwwfHx8MA%3D%3D",
-    "tagColor": "forest",
-    "difficulty": "Moderate",
-    "shortDescription": "A cooling wilderness trek off the beaten track to swim in pristine natural rock pools and streams surrounded by tropical foliage.",
-    "description1": "Avoid the crowded tourist spots and trek with a local naturalist guide to secret freshwater pools fed by clean mountain springs.",
-    "description2": "Spot exotic birds, freshwater crabs, and beautiful tropical butterflies. The pools are completely natural, surrounded by boulders and thick green ferns, perfect for a refreshing afternoon dip.",
-    "highlights": [
-      "Trek off-grid paths unknown to tourists",
-      "Swim in clear natural rock plunge pools",
-      "Naturalist guide explains local flora & fauna",
-      "Quiet and peaceful wilderness setting",
-      "Small group size ensures high safety"
-    ],
-    "included": [
-      "Certified naturalist guide",
-      "Fresh coconut water and fruit platter",
-      "Waterproof dry bag for gear",
-      "First aid and trail support"
-    ],
-    "itinerary": [
-      { "time": "09:30 AM", "activity": "Meet at trail head, safety brief" },
-      { "time": "09:50 AM", "activity": "Enter jungle trails, flora walkthrough" },
-      { "time": "10:45 AM", "activity": "Arrive at first cascade, rock pool swim" },
-      { "time": "12:00 PM", "activity": "Picnic lunch and fruit platter by the stream" },
-      { "time": "01:00 PM", "activity": "Return hike through bamboo groves" },
-      { "time": "01:30 PM", "activity": "End of trek, transport back to Ella" }
-    ],
-    "gallery": [
-      "https://images.unsplash.com/photo-1639401672371-0c4be4389107?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG5hdHVyYWwtcG9vbHMlMjBlbGxhJTIwc3JpJTIwbGFua2F8ZW58MHx8MHx8fDA%3D",
-      "https://images.unsplash.com/photo-1562835613-bf320d40ac5f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTl8fG5hdHVyYWwtcG9vbHMlMjBlbGxhJTIwc3JpJTIwbGFua2F8ZW58MHx8MHx8fDA%3D",
-      "https://images.unsplash.com/photo-1621355773011-cad4fa6be15e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fG5hdHVyYWwtcG9vbHMlMjBlbGxhJTIwc3JpJTIwbGFua2F8ZW58MHx8MHx8fDA%3D"
-    ]
-  },
-  {
-    "id": "ella-trails",
-    "title": "Trails",
-    "subtitle": "Curated hiking trails customized to your pace and goals",
-    "category": "Hiking & Trekking",
-    "date": "Available Daily",
-    "displayDate": "Daily Departure",
-    "time": "Flexible",
-    "duration": "Flexible",
-    "location": "Ella Valley",
-    "price": 13000,
-    "currency": "LKR",
-    "rating": 4.8,
-    "reviewCount": 156,
-    "maxGuests": 10,
-    "image": "https://media.istockphoto.com/id/1142529098/photo/pointing-the-mountain.jpg?s=612x612&w=0&k=20&c=QGILl1DPuQCD-ZMfzX1EZPIXC3OPfM3d6DLQz1ABypM=",
-    "thumbnail": "https://media.istockphoto.com/id/1142529098/photo/pointing-the-mountain.jpg?s=612x612&w=0&k=20&c=QGILl1DPuQCD-ZMfzX1EZPIXC3OPfM3d6DLQz1ABypM=",
-    "tag": "Customizable",
-    "tagColor": "forest",
-    "difficulty": "Moderate",
-    "shortDescription": "Tailored trail packages matching your fitness level, spanning historical forest paths, pine forests, and panoramic ridges.",
-    "description1": "Our custom trails allow you to choose your difficulty and destinations. Whether you want a quiet forest walk or a rugged ridge-line trek, we have a route for you.",
-    "description2": "All trails are guided by local pathfinders who know every ridge and shortcut. Great for nature lovers, couples, and groups seeking a private outdoor experience.",
-    "highlights": [
-      "Fully customizable itinerary and duration",
-      "Select your difficulty (Easy to Extreme)",
-      "Pass through hidden viewpoints and pine forests",
-      "Private guide for you and your group",
-      "Flexible starting and ending times"
-    ],
-    "included": [
-      "Private pathfinder guide",
-      "Tailored route planning",
-      "Trail snacks and drinks",
-      "Trekking poles on request"
-    ],
-    "itinerary": [
-      { "time": "Flexible", "activity": "Hotel pick up and route briefing" },
-      { "time": "Flexible", "activity": "Trek customized route through Ella hills" },
-      { "time": "Flexible", "activity": "Lunch / Snack break at a panoramic view point" },
-      { "time": "Flexible", "activity": "Return transfer to accommodation" }
-    ],
-    "gallery": [
-      "https://media.istockphoto.com/id/2265226266/photo/mountain-ridge-hiking-trail-under-blue-sky-in-tropical-forest.jpg?s=612x612&w=0&k=20&c=641QYodSZRXYj9ntA1ftOmVgTdUOodolhIIKtISc1Po=",
-      "https://media.istockphoto.com/id/1028018062/photo/travel-concept-couple-sitting-on-top-of-small-adams-peak-near-ella-sri-lanka.jpg?s=612x612&w=0&k=20&c=HFyW_zhr6raBtz3naStJB9ygh3nkgFL0wmiONiS4db0=",
-      "https://media.istockphoto.com/id/1402272021/photo/mountains-with-rainforest-and-jungle-in-the-mountainous-province-of-sri-lanka.jpg?s=612x612&w=0&k=20&c=isuO6XJO0Ztgmj-O23xiLNu9QN1uP540J_KgCtSnzFs="
-    ]
-  },
-  {
-    "id": "village-life",
-    "title": "Village Life Tracking",
-    "subtitle": "Walk through remote villages and experience local highland traditions",
-    "category": "Cultural Trails",
-    "date": "Available Daily",
-    "displayDate": "Daily Departure",
-    "time": "08:30 AM",
-    "duration": "5 hours",
-    "location": "Ella Outskirts",
-    "price": 11000,
-    "currency": "LKR",
-    "rating": 4.9,
-    "reviewCount": 118,
-    "maxGuests": 12,
-    "image": "https://plus.unsplash.com/premium_photo-1661926167964-79f3d4c27110?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dmlsbGFnZS1saWZlJTIwdHJhY2tpbmclMjBlbGxhfGVufDB8fDB8fHww",
-    "thumbnail": "https://plus.unsplash.com/premium_photo-1661926167964-79f3d4c27110?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dmlsbGFnZS1saWZlJTIwdHJhY2tpbmclMjBlbGxhfGVufDB8fDB8fHww",
-    "tag": "Cultural",
-    "tagColor": "gold",
+    "image": "https://images.unsplash.com/photo-1517586220462-f5712b9ec531?w=600&auto=format&fit=crop&q=60",
+    "thumbnail": "https://images.unsplash.com/photo-1517586220462-f5712b9ec531?w=600&auto=format&fit=crop&q=60",
+    "tag": "Best Value",
+    "tagColor": "blue",
     "difficulty": "Easy",
-    "shortDescription": "Walk through traditional farming villages, meet local families, and learn about highland agriculture and crafts.",
-    "description1": "A beautiful walk through paddy fields, vegetable plots, and home gardens. Discover how rural villagers live in harmony with the surrounding hills.",
-    "description2": "Enjoy a traditional herbal drink at a villager's home, observe ancient farming techniques, and learn about the local community's lifestyle and crafts.",
+    "shortDescription": "An epic 192km regional journey covering Bomburu Ella, Bambrakanda, Diyaluma, and Ravana Waterfalls with customizable transport options.",
+    "description1": "Some of the most spectacular waterfalls in Sri Lanka are located in this region. Many people still don’t know that it is possible to visit several waterfalls in one day. The special thing is that among these few waterfalls, not only the highest waterfall and the second highest waterfall in Sri Lanka, but also the most beautiful waterfall in Sri Lanka is located. Our experienced guide will cover these waterfalls in one day. We also have various modes of transportation and you can choose what you want.",
+    "description2": "Set out on an immersive 12-hour chase covering 192km of winding hill-country roads. This tour takes you to Sri Lanka's heavy hitters: Bambrakanda (the tallest), Diyaluma (the second tallest), Bomburu Ella (the widest/most beautiful), and the iconic Ravana Waterfall. Travel in comfort using your choice of vehicle—from open-air tuk-tuks and motorbikes to comfortable vans, cars, or rugged safari jeeps—all accompanied by an expert local guide.",
     "highlights": [
-      "Walk through working paddy fields and home gardens",
-      "Meet local villagers and enjoy traditional hospitality",
-      "Learn about highland agriculture and cultivation",
-      "Enjoy traditional herbal tea and local treats",
-      "Peaceful and authentic cultural immersion"
+      "192km comprehensive waterfall exploration tour",
+      "Visit Sri Lanka's highest (Bambrakanda) and second highest (Diyaluma) waterfalls",
+      "See Bomburu Ella, widely considered the most beautiful waterfall in the country",
+      "Fully customizable transport options tailored to your preference",
+      "Led by a knowledgeable and local expert guide"
     ],
     "included": [
-      "Cultural guide specialist",
-      "Herbal tea and village snacks",
-      "All entrance permits",
-      "Return transport from Ella town"
+      "Experienced local guide",
+      "Customizable transport vehicle (as selected)",
+      "Fuel allowances and parking fees",
+      "Bottled water and refreshing King Coconut drink"
     ],
     "itinerary": [
-      { "time": "08:30 AM", "activity": "Transfer to rural valley village" },
-      { "time": "09:00 AM", "activity": "Walk through vegetable plots and paddy fields" },
-      { "time": "10:30 AM", "activity": "Visit a local home, herbal tea break" },
-      { "time": "11:30 AM", "activity": "Demonstration of traditional farming tools" },
-      { "time": "12:30 PM", "activity": "Traditional home-cooked village lunch" },
-      { "time": "01:30 PM", "activity": "Return transfer to Ella town" }
+      { "time": "07:00 AM", "activity": "Pick up from Ella City center in your chosen transport vehicle" },
+      { "time": "09:00 AM", "activity": "Arrive at Bomburu Ella Waterfall for a morning exploration" },
+      { "time": "11:30 AM", "activity": "Visit Bambrakanda Waterfall, the tallest cascade in Sri Lanka" },
+      { "time": "02:00 PM", "activity": "Travel to Diyaluma Waterfall, enjoy a picnic lunch and optional dip" },
+      { "time": "05:30 PM", "activity": "Stop by the roadside Ravana Waterfall for evening photography" },
+      { "time": "07:00 PM", "activity": "Return drop-off at Ella City center (End of tour)" }
     ],
     "gallery": [
-      "https://images.unsplash.com/photo-1628940671199-3cae5ead7824?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fHZpbGxhZ2UtbGlmZSUyMHRyYWNraW5nJTIwZWxsYXxlbnwwfHwwfHx8MA%3D%3D",
-      "https://images.unsplash.com/photo-1605749968119-401f2c93528d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fHZpbGxhZ2UtbGlmZSUyMHRyYWNraW5nJTIwZWxsYXxlbnwwfHwwfHx8MA%3D%3D",
-      "https://plus.unsplash.com/premium_photo-1661957883806-4f6d9ffff913?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dmlsbGFnZS1saWZlJTIwdHJhY2tpbmclMjBlbGxhfGVufDB8fDB8fHww"
-    ]
-  },
-  {
-    "id": "kithul-tour",
-    "title": "Kithul Tour",
-    "subtitle": "Discover the ancient craft of Kithul syrup tapping",
-    "category": "Cultural Trails",
-    "date": "Available Daily",
-    "displayDate": "Daily Departure",
-    "time": "09:00 AM",
-    "duration": "4 hours",
-    "location": "Ella Foothills",
-    "price": 10000,
-    "currency": "LKR",
-    "rating": 4.8,
-    "reviewCount": 94,
-    "maxGuests": 8,
-    "image": "https://plus.unsplash.com/premium_photo-1664908354835-80f009c5e73d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI5fHxLaXRodWwlMjBUb3VyJTIwZWxsYSUyMHNyaSUyMGxhbmFrYXxlbnwwfHwwfHx8MA%3D%3D",
-    "thumbnail": "https://plus.unsplash.com/premium_photo-1664908354835-80f009c5e73d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI5fHxLaXRodWwlMjBUb3VyJTIwZWxsYSUyMHNyaSUyMGxhbmFrYXxlbnwwfHwwfHx8MA%3D%3D",
-    "tag": "Unique",
-    "tagColor": "gold",
-    "difficulty": "Easy",
-    "shortDescription": "Trek into Kithul palm groves, witness syrup tapping demonstrations, and taste fresh Kithul sweet treats with tapper families.",
-    "description1": "Kithul syrup tapping is a traditional Sri Lankan craft handed down through generations. Visit a local family of tappers in the forest and see how they harvest the sap.",
-    "description2": "Learn about the processing of syrup and jaggery (palm sugar). Taste warm Kithul honey poured over fresh buffalo curd—a delicious and authentic Sri Lankan delicacy.",
-    "highlights": [
-      "Trek into natural Kithul palm groves",
-      "Witness live tapping demonstration by experts",
-      "Learn processing of syrup and jaggery sugar",
-      "Taste fresh curd and Kithul honey treat",
-      "Support local artisanal family business"
+      "https://images.unsplash.com/photo-1684462404172-6d469643606e?w=600&auto=format&fit=crop&q=60",
+      "https://images.unsplash.com/photo-1613693687360-8b0d54705746?w=600&auto=format&fit=crop&q=60"
     ],
-    "included": [
-      "Local expert guide",
-      "Curd and Kithul honey tasting",
-      "Tapping demonstration access",
-      "Jaggery sample gift pack"
-    ],
-    "itinerary": [
-      { "time": "09:00 AM", "activity": "Depart Ella town for foothills" },
-      { "time": "09:30 AM", "activity": "Guided walk in forest Kithul palm groves" },
-      { "time": "10:15 AM", "activity": "Witness tapping demo, sap collection talk" },
-      { "time": "11:15 AM", "activity": "Syrup boiling demonstration" },
-      { "time": "12:00 PM", "activity": "Curd and Kithul honey tasting session" },
-      { "time": "01:00 PM", "activity": "Return transfer to Ella town" }
-    ],
-    "gallery": [
-      "https://plus.unsplash.com/premium_photo-1683290218013-e846bd2c8227?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQxfHxLaXRodWwlMjBUb3VyJTIwZWxsYSUyMHNyaSUyMGxhbmFrYXxlbnwwfHwwfHx8MA%3D%3D",
-      "https://images.unsplash.com/photo-1596192310963-dcf9d144dcd3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIzfHxLaXRodWwlMjBUb3VyJTIwZWxsYSUyMHNyaSUyMGxhbmFrYXxlbnwwfHwwfHx8MA%3D%3D",
-      "https://plus.unsplash.com/premium_photo-1770311037884-e1b1acfed245?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njl8fEtpdGh1bCUyMFRvdXIlMjBlbGxhJTIwc3JpJTIwbGFuYWthfGVufDB8fDB8fHww"
-    ]
-  },
-  {
-    "id": "riverside-cooking",
-    "title": "Riverside Cooking",
-    "subtitle": "Prepare and enjoy an authentic Sri Lankan meal by the riverbank",
-    "category": "Food & Nature",
-    "date": "Available Daily",
-    "displayDate": "Daily Departure",
-    "time": "09:30 AM",
-    "duration": "5 hours",
-    "location": "Kirindi River, Ella",
-    "price": 15000,
-    "currency": "LKR",
-    "rating": 4.9,
-    "reviewCount": 167,
-    "maxGuests": 10,
-    "image": "https://media.istockphoto.com/id/1474261230/photo/asian-woman-in-traditional-kebaya-and-batik-cooking-in-traditional-styled-javanese-public.jpg?s=612x612&w=0&k=20&c=O2j4WMCJu-V0xyjQTpYzwbSWuy0_HUxiwiwSThgiedc=",
-    "thumbnail": "https://media.istockphoto.com/id/1474261230/photo/asian-woman-in-traditional-kebaya-and-batik-cooking-in-traditional-styled-javanese-public.jpg?s=612x612&w=0&k=20&c=O2j4WMCJu-V0xyjQTpYzwbSWuy0_HUxiwiwSThgiedc=",
-    "tag": "Culinary",
-    "tagColor": "gold",
-    "difficulty": "Easy",
-    "shortDescription": "Gather wild herbs, cook traditional clay-pot curry dishes by the river, and dine in a peaceful wilderness setting.",
-    "description1": "A culinary adventure in nature. Hike to a beautiful spot on the riverbank, build a wood-fire stove, and learn to cook authentic clay-pot curry dishes.",
-    "description2": "Using local spices, coconut milk, and fresh vegetables, you'll prepare several traditional recipes. Enjoy your feast on banana leaves while listening to the rushing river water.",
-    "highlights": [
-      "Cook outdoors using traditional clay pots",
-      "Learn to use Sri Lankan spices and coconut milk",
-      "Beautiful and relaxing riverside setting",
-      "Hike through fields to collect fresh wild herbs",
-      "Enjoy your meal served on banana leaves"
-    ],
-    "included": [
-      "Culinary guide and local cook",
-      "All cooking ingredients and gear",
-      "Riverside dining setup",
-      "Recipe card sheets to take home"
-    ],
-    "itinerary": [
-      { "time": "09:30 AM", "activity": "Transfer to river valley trail head" },
-      { "time": "10:00 AM", "activity": "Hike to riverside collecting wild herbs" },
-      { "time": "10:30 AM", "activity": "Build wood fire, prepare ingredients" },
-      { "time": "11:15 AM", "activity": "Cook traditional curry dishes" },
-      { "time": "12:30 PM", "activity": "Dine by the river bank on banana leaves" },
-      { "time": "02:00 PM", "activity": "Clean up and return transfer to Ella" }
-    ],
-    "gallery": [
-      "https://media.istockphoto.com/id/1151590277/photo/young-woman-roasting-balinese-coffee.jpg?s=612x612&w=0&k=20&c=zLl8meKOTTaIIW1RFgR93RPBj4Nd3EMURoZxffXESbc=",
-      "https://media.istockphoto.com/id/1277872016/photo/local-coffee-mixing-roasted-home-made-indonesia.jpg?s=612x612&w=0&k=20&c=FWxfhuY3UnjnvDS-K5pQDWzpD0bV3Yq53_QlPSlxKuU=",
-      "https://media.istockphoto.com/id/2209005322/photo/sri-lankan-woman-grinding-a-grain.jpg?s=612x612&w=0&k=20&c=1BnZJV7KrZCBAEu6oKKI7hXrKzuytVsdBHiBBDn8CaI="
+    "transportMethods": [
+      "Scooter",
+      "Motorbike",
+      "Tuk Tuk",
+      "Van",
+      "Car",
+      "Safari Jeep"
     ]
   }
 ]

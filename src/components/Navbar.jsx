@@ -1,59 +1,63 @@
-import React, { useState, useEffect } from 'react'
-import { Link, useLocation } from 'react-router-dom'
-import { motion, AnimatePresence } from 'framer-motion'
-import { Menu, X, Mountain, Compass } from 'lucide-react'
+import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { motion, AnimatePresence } from "framer-motion";
+import { Menu, X, Mountain, Compass } from "lucide-react";
 
 const navLinks = [
-  { label: 'Home', href: '/' },
-  { label: 'Trails', href: '/experiences' },
-  { label: 'Gallery', href: '/gallery' },
-  { label: 'Contact', href: '/#contact' },
-]
+  { label: "Home", href: "/" },
+  { label: "Trails", href: "/experiences" },
+  { label: "Gallery", href: "/gallery" },
+  { label: "Contact", href: "/#contact" },
+];
 
 export default function Navbar() {
-  const [scrolled, setScrolled] = useState(false)
-  const [mobileOpen, setMobileOpen] = useState(false)
-  const location = useLocation()
+  const [scrolled, setScrolled] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 60)
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
+    const handleScroll = () => setScrolled(window.scrollY > 60);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   // Close mobile menu on route change
   useEffect(() => {
-    setMobileOpen(false)
-  }, [location.pathname])
+    setMobileOpen(false);
+  }, [location.pathname]);
 
   const handleAnchorClick = (href) => {
-    if (href.startsWith('/#')) {
-      const id = href.replace('/#', '')
-      if (location.pathname !== '/') {
-        window.location.href = href
+    if (href.startsWith("/#")) {
+      const id = href.replace("/#", "");
+      if (location.pathname !== "/") {
+        window.location.href = href;
       } else {
-        document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
+        document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
       }
-      setMobileOpen(false)
+      setMobileOpen(false);
     }
-  }
+  };
 
   return (
     <>
       <motion.header
         initial={{ y: -100 }}
         animate={{ y: 0 }}
-        transition={{ duration: 0.6, ease: 'easeOut' }}
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled
-            ? 'py-3 bg-forest/95 backdrop-blur-md shadow-lg shadow-forest/20'
-            : 'py-5 bg-transparent'
-          }`}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+          scrolled
+            ? "py-3 bg-forest/95 backdrop-blur-md shadow-lg shadow-forest/20"
+            : "py-5 bg-transparent"
+        }`}
       >
         <div className="max-w-7xl mx-auto px-4 md:px-8 flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className={`p-2 rounded-xl transition-all duration-300 ${scrolled ? 'bg-gold/20' : 'bg-white/10'
-              }`}>
+            <div
+              className={`p-2 rounded-xl transition-all duration-300 ${
+                scrolled ? "bg-gold/20" : "bg-white/10"
+              }`}
+            >
               <Mountain className="w-5 h-5 text-gold" />
             </div>
             <div>
@@ -62,11 +66,18 @@ export default function Navbar() {
               </span>
             </div>
           </Link>
+          {/* <Link to="/" className="flex items-center gap-2 group">
+            <img
+              src="./assets/hero/hikingbar-ella.png"
+              alt="Logo"
+              className="w-24 h-24 object-contain"
+            />
+          </Link> */}
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-8">
-            {navLinks.map((link) => (
-              link.href.startsWith('/#') ? (
+            {navLinks.map((link) =>
+              link.href.startsWith("/#") ? (
                 <button
                   key={link.label}
                   onClick={() => handleAnchorClick(link.href)}
@@ -84,8 +95,8 @@ export default function Navbar() {
                   {link.label}
                   <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gold transition-all duration-300 group-hover:w-full" />
                 </Link>
-              )
-            ))}
+              ),
+            )}
           </nav>
 
           {/* Mobile hamburger */}
@@ -94,7 +105,11 @@ export default function Navbar() {
             className="md:hidden p-2 rounded-lg text-white hover:text-gold transition-colors"
             aria-label="Toggle menu"
           >
-            {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {mobileOpen ? (
+              <X className="w-6 h-6" />
+            ) : (
+              <Menu className="w-6 h-6" />
+            )}
           </button>
         </div>
       </motion.header>
@@ -111,16 +126,18 @@ export default function Navbar() {
               className="fixed inset-0 z-40 bg-black/60 backdrop-blur-sm"
             />
             <motion.div
-              initial={{ x: '100%' }}
+              initial={{ x: "100%" }}
               animate={{ x: 0 }}
-              exit={{ x: '100%' }}
-              transition={{ type: 'spring', damping: 25, stiffness: 200 }}
+              exit={{ x: "100%" }}
+              transition={{ type: "spring", damping: 25, stiffness: 200 }}
               className="fixed top-0 right-0 bottom-0 z-40 w-72 bg-forest-dark shadow-2xl"
             >
               <div className="flex flex-col h-full pt-20 pb-8 px-6">
                 <div className="flex items-center gap-2 mb-8">
                   <Compass className="w-5 h-5 text-gold" />
-                  <span className="font-accent text-lg text-beige italic">Navigate Ella</span>
+                  <span className="font-accent text-lg text-beige italic">
+                    Navigate Ella
+                  </span>
                 </div>
                 <nav className="flex flex-col gap-2 flex-1">
                   {navLinks.map((link, i) => (
@@ -130,7 +147,7 @@ export default function Navbar() {
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ delay: i * 0.08 }}
                     >
-                      {link.href.startsWith('/#') ? (
+                      {link.href.startsWith("/#") ? (
                         <button
                           onClick={() => handleAnchorClick(link.href)}
                           className="w-full text-left text-white/80 hover:text-gold font-body font-medium py-3 px-4 rounded-xl hover:bg-white/5 transition-all duration-200 text-lg"
@@ -148,12 +165,11 @@ export default function Navbar() {
                     </motion.div>
                   ))}
                 </nav>
-
               </div>
             </motion.div>
           </>
         )}
       </AnimatePresence>
     </>
-  )
+  );
 }
