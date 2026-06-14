@@ -52,27 +52,13 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-4 md:px-8 flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
-            <div
-              className={`p-2 rounded-xl transition-all duration-300 ${
-                scrolled ? "bg-gold/20" : "bg-white/10"
-              }`}
-            >
-              <Mountain className="w-5 h-5 text-gold" />
-            </div>
-            <div>
-              <span className="font-display font-bold text-xl text-white tracking-wide">
-                Ella <span className="text-gold">Hiking Trails</span>
-              </span>
-            </div>
-          </Link>
-          {/* <Link to="/" className="flex items-center gap-2 group">
+          <Link to="/" className="flex items-center group">
             <img
-              src="./assets/hero/hikingbar-ella.png"
-              alt="Logo"
-              className="w-24 h-24 object-contain"
+              src="/assets/hero/hikingbar-ella.png"
+              alt="Ella Logo"
+              className="h-10 md:h-12 lg:h-14 object-contain"
             />
-          </Link> */}
+          </Link>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-8">
