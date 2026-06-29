@@ -106,7 +106,7 @@ export default function HeroSection() {
   }
 
   return (
-    <section ref={ref} className="relative h-screen min-h-[700px] max-h-[1100px] flex items-center overflow-hidden">
+    <section ref={ref} className="relative min-h-[calc(100vh-5.5rem)] md:min-h-[700px] max-h-[1200px] flex items-center overflow-hidden pt-20 sm:pt-24">
       <motion.div style={{ y }} className="absolute inset-0 z-0">
         <AnimatePresence mode="wait">
           <motion.div
@@ -154,8 +154,8 @@ export default function HeroSection() {
       ))}
 
       {/* Content  */}
-      <motion.div style={{ opacity }} className="relative z-20 max-w-7xl mx-auto px-4 md:px-8 w-full pt-20 flex items-center justify-between">
-        <div className="max-w-3xl">
+      <motion.div style={{ opacity }} className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 md:px-8 w-full pt-0 flex flex-col lg:flex-row items-start justify-between gap-10">
+        <div className="w-full max-w-3xl">
           <div className="flex items-center gap-3 mb-6">
             <div className="h-px w-12 bg-gold" />
             <AnimatePresence mode="wait">
@@ -177,7 +177,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             className="font-display font-bold text-white leading-[1.05] mb-4"
-            style={{ fontSize: 'clamp(2.8rem, 7vw, 5.5rem)' }}
+            style={{ fontSize: 'clamp(2.4rem, 6vw, 5rem)' }}
           >
             Discover the
             <br />
@@ -185,7 +185,7 @@ export default function HeroSection() {
           </motion.h1>
 
 
-          <div className="h-16 mb-8 overflow-hidden">
+          <div className="mb-8 overflow-hidden">
             <AnimatePresence mode="wait">
               <motion.p
                 key={currentSlide}
@@ -193,7 +193,7 @@ export default function HeroSection() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -15 }}
                 transition={{ duration: 0.6 }}
-                className="font-body text-white/75 text-lg md:text-xl leading-relaxed max-w-xl"
+                className="font-body text-white/75 text-base md:text-xl leading-relaxed max-w-full"
               >
                 {slides[currentSlide].tagline}
               </motion.p>
@@ -206,7 +206,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
             onSubmit={handleSearch}
-            className="glass-card backdrop-blur-lg bg-black/30 border border-white/15 p-4 rounded-3xl max-w-2xl mb-12 shadow-2xl relative z-30"
+            className="glass-card backdrop-blur-lg bg-black/30 border border-white/15 p-4 sm:p-5 rounded-3xl w-full mb-12 shadow-2xl relative z-30"
           >
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 items-end">
               <CustomDropdown
@@ -256,7 +256,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.6 }}
-            className="flex flex-wrap gap-6"
+            className="grid grid-cols-2 sm:grid-cols-3 gap-4"
           >
             {stats.map(({ icon: Icon, value, label }) => (
               <div key={label} className="flex items-center gap-2">
@@ -272,7 +272,7 @@ export default function HeroSection() {
           </motion.div>
         </div>
 
-        <div className="hidden lg:block w-80 space-y-6">
+        <div className="hidden lg:block w-full max-w-xs space-y-6">
           <motion.div
             animate={{ y: [-10, 10, -10] }}
             transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}

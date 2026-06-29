@@ -50,13 +50,13 @@ export default function Navbar() {
             : "py-5 bg-transparent"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-4 md:px-8 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-4 sm:px-5 md:px-8 flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center group">
+          <Link to="/" className="flex items-center gap-2 group">
             <img
               src="/assets/hero/hikingbar-ella.png"
               alt="Ella Logo"
-              className="h-10 md:h-12 lg:h-14 object-contain"
+              className="h-8 md:h-10 lg:h-12 object-contain max-w-[120px] sm:max-w-[140px]"
             />
           </Link>
 
